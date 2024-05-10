@@ -12,7 +12,7 @@
     "lint:check": "eslint --ignore-path .eslintignore --ext .js,.ts .",
     "prettier": "prettier --write */**/*.{js,jsx,json,ts,tsx,scss,css,md}",
     "prettier:check": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\"",
-    "lint-prettier": "yarn lint:check && yarn prettier:check",
+    "lint-prettier": "npm run lint:check && npm run prettier:check",
     "prepare": "husky"
   },
   "lint-staged": {
